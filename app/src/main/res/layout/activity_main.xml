@@ -39,5 +39,27 @@
         android:textSize="18dp" >
     </Button>
 
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="100dp"
+        android:gravity="center"
+        android:onClick="startReceiver"
+        android:text="Receive"
+        android:textSize="18dp" >
+    </Button>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:onClick="pickPhotos"
+        android:text="Pick Photos"
+        android:textSize="18dp" >
+    </Button>
+
 
 </RelativeLayout>
