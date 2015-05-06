@@ -103,7 +103,7 @@ public class SenderActivity extends Activity implements ZBarScannerView.ResultHa
             image.compress(Bitmap.CompressFormat.JPEG, 50, out);
             ByteArrayInputStream in = new ByteArrayInputStream(out.toByteArray());
 
-            revision.setAttachment("image", "application/octet-stream", in);
+            revision.setAttachment("photo", "application/octet-stream", in);
 
             try {
                 revision.save();
